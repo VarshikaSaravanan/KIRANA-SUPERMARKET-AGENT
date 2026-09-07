@@ -1,0 +1,7 @@
+cd kirana-agent
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip  
+pip install "numpy>=2.0.0,<3"
+pip install langchain langgraph langchain-openai python-telegram-bot supabase reportlab python-pptx pydantic python-dotenv Flask gunicorn pyngrok
+pip install -r requirements.txt
